@@ -13,7 +13,7 @@ l2	and r3, r1, r2
 	ble l1
 	b l
 	
-l1  lsr r1, #4
+l1  	lsr r1, #4
 	sub r4, #1
 	cmp r4, #0
 	beq l3
@@ -24,5 +24,5 @@ l	add r0, #4
 	sub r5, #1
 	cmp r5, #0
 	bne l4
-l5  b l5
+l5  	b l5
 	end
